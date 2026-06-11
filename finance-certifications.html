@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Market Certifications | Patel Dhru</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .cert-showcase-page {
+            padding: 8rem 2rem 4rem 2rem;
+            min-height: 100vh;
+            background-color: var(--dark-bg);
+        }
+        .cert-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+            max-width: 1200px;
+            margin: 3rem auto 0 auto;
+        }
+        .cert-display-card {
+            background-color: var(--light-bg);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #232936;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: var(--transition);
+        }
+        .cert-display-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-color);
+            box-shadow: 0 10px 20px rgba(0, 123, 255, 0.05);
+        }
+        .cert-frame {
+            width: 100%;
+            height: 180px;
+            background: linear-gradient(45deg, #1e2638, #11141a);
+            margin-bottom: 1.5rem;
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid #232936;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cert-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .cert-frame i {
+            font-size: 3.5rem;
+        }
+        .back-home-btn {
+            margin-bottom: 2rem;
+            display: inline-block;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        .view-doc-btn {
+            background-color: transparent;
+            border: 1px solid var(--primary-color);
+            color: var(--primary-color);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            display: inline-block;
+            margin-top: 1.5rem;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+        .view-doc-btn:hover {
+            background-color: var(--primary-color);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar-header">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <a href="index.html">Dev<span>Portfolio.</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                        <i class="fas fa-moon" id="theme-icon"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="cert-showcase-page">
+        <div class="about-container">
+            <a href="index.html" class="back-home-btn"><i class="fas fa-arrow-left"></i> Back to Portfolio</a>
+            
+            <div class="section-title">
+                <h2>Financial Certifications & Credentials</h2>
+                <div class="underline"></div>
+                <p style="color: var(--text-muted); margin-top: 1rem;">Verifiable industry track records, achievements, and documentation</p>
+            </div>
+
+            <div class="cert-gallery">
+                
+                <div class="cert-display-card">
+                    <div>
+                        <div class="cert-frame">
+                            <img src="assets/images/finance-cert1.jpg" alt="Financial Market Analytics Certificate">
+                        </div>
+                        <h3>Market Analytics Validation</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">Certified proficiency in technical chart mapping, liquidity flows, and core asset metrics.</p>
+                    </div>
+                    <a href="assets/images/finance-cert1.jpg" target="_blank" class="view-doc-btn"><i class="fas fa-image"></i> View Image</a>
+                </div>
+
+                <div class="cert-display-card">
+                    <div>
+                        <div class="cert-frame">
+                            <i class="fas fa-file-pdf" style="color: #e74c3c;"></i>
+                        </div>
+                        <h3>Advanced Capital Markets Credential</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">Advanced documentation covering risk evaluation parameters, exchange data streams, and structural execution maps.</p>
+                    </div>
+                    <a href="assets/docs/finance-cert2.pdf" target="_blank" class="view-doc-btn"><i class="fas fa-file-pdf"></i> Open PDF Certificate</a>
+                </div>
+
+                <div class="cert-display-card">
+                    <div>
+                        <div class="cert-frame">
+                            <i class="fas fa-file-contract" style="color: #f1c40f;"></i>
+                        </div>
+                        <h3>Professional Offer Letter</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">Official selection and technical placement verification document for corporate operations.</p>
+                    </div>
+                    <a href="assets/docs/offer-letter.pdf" target="_blank" class="view-doc-btn"><i class="fas fa-envelope-open-text"></i> View Offer Letter</a>
+                </div>
+
+                <div class="cert-display-card">
+                    <div>
+                        <div class="cert-frame">
+                            <img src="assets/images/project-trading.jpg" alt="FX Analytics Monitor Dashboard">
+                        </div>
+                        <h3>FX Daily Analytics Dashboard</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem;">Practical development metrics used to monitor financial cross-asset trend vectors and daily charts.</p>
+                    </div>
+                    <a href="index.html#projects" class="view-doc-btn"><i class="fas fa-project-diagram"></i> View Project Specs</a>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
