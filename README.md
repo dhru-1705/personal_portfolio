@@ -2,13 +2,13 @@
 
 A production-grade, highly responsive multi-page personal portfolio and digital credential dashboard. Engineered with a persistent theme engine and secure frontend validation metrics to showcase modern full-stack development and financial analytics proficiency.
 
-## 🚀 Live Deployment
+##  Live Deployment
 Explore the live, production-ready environment here:
-👉 **[Insert Your Live Netlify Link URL Here]**
+👉 **https://6a2a23b7bebae3f5742d23a3--stupendous-buttercream-ec7f48.netlify.app/**
 
 ---
 
-## 🛠️ Core Engineering Features
+##  Core Engineering Features
 
 * **Semantic Multi-Page Architecture:** Built with standard HTML5 elements for optimal SEO performance and accessibility (`index.html` and `finance-certifications.html`).
 * **Responsive Fluid Grid Layouts:** Designed completely with a Mobile-First mindset using modern CSS3 Grid/Flexbox properties and centralized design variables (`--primary-color`, `--dark-bg`).
@@ -18,7 +18,7 @@ Explore the live, production-ready environment here:
 
 ---
 
-## 💻 Tech Stack Matrix
+##  Tech Stack Matrix
 
 * **Frontend Interface:** HTML5, CSS3 (Custom Variables / Root Structuring)
 * **Dynamic Logic Layer:** Vanilla JavaScript (ES6 standard modules)
@@ -27,7 +27,7 @@ Explore the live, production-ready environment here:
 
 ---
 
-## 📂 System Directory Structure
+##  System Directory Structure
 
 ```text
 personal_portfolio/
